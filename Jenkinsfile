@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "kamal0405/cicd-k8s-demo"
+    registry = "kamal0405/mydjango"
     registryCredential = 'docker_credentials'
     dockerImage = ''
   }
